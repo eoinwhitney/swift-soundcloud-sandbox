@@ -25,3 +25,4 @@ build/
 *.dep
 
 Secrets.swift
+MeSecrets.swift

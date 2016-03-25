@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BAB09AF1CA588B1000D9186 /* Secrets.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7BAB09AE1CA588B1000D9186 /* Secrets.swift */; };
+		7BAB09B11CA58CF4000D9186 /* MeSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAB09B01CA58CF4000D9186 /* MeSecrets.swift */; };
 		A6216569615C7C4F28FB3322 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9B65976E28AD0A9E6E579D /* Pods.framework */; };
 		BD1679CD1CA0786B00236317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1679CC1CA0786B00236317 /* AppDelegate.swift */; };
 		BD1679CF1CA0786B00236317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1679CE1CA0786B00236317 /* ViewController.swift */; };
 		BD1679D21CA0786B00236317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1679D01CA0786B00236317 /* Main.storyboard */; };
 		BD1679D41CA0786B00236317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1679D31CA0786B00236317 /* Assets.xcassets */; };
 		BD1679D71CA0786B00236317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1679D51CA0786B00236317 /* LaunchScreen.storyboard */; };
-		BD1679DF1CA0809E00236317 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1679DE1CA0809E00236317 /* Secrets.swift */; };
 		BD1679E31CA08C0A00236317 /* SoundcloudAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1679E21CA08C0900236317 /* SoundcloudAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A9B65976E28AD0A9E6E579D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAB09AE1CA588B1000D9186 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		7BAB09B01CA58CF4000D9186 /* MeSecrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeSecrets.swift; sourceTree = "<group>"; };
 		B3CE93E4F30144C725DB2C3D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B7192D147D2F2A827C22ED79 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BD1679C91CA0786B00236317 /* SoundcloudTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundcloudTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,7 +31,6 @@
 		BD1679D31CA0786B00236317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1679D61CA0786B00236317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD1679D81CA0786B00236317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD1679DE1CA0809E00236317 /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		BD1679E21CA08C0900236317 /* SoundcloudAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundcloudAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,8 +90,9 @@
 				BD1679D31CA0786B00236317 /* Assets.xcassets */,
 				BD1679D51CA0786B00236317 /* LaunchScreen.storyboard */,
 				BD1679D81CA0786B00236317 /* Info.plist */,
-				BD1679DE1CA0809E00236317 /* Secrets.swift */,
+				7BAB09AE1CA588B1000D9186 /* Secrets.swift */,
 				BD1679E21CA08C0900236317 /* SoundcloudAPI.swift */,
+				7BAB09B01CA58CF4000D9186 /* MeSecrets.swift */,
 			);
 			path = SoundcloudTestApp;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BAB09AF1CA588B1000D9186 /* Secrets.swift in Resources */,
 				BD1679D71CA0786B00236317 /* LaunchScreen.storyboard in Resources */,
 				BD1679D41CA0786B00236317 /* Assets.xcassets in Resources */,
 				BD1679D21CA0786B00236317 /* Main.storyboard in Resources */,
@@ -217,7 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1679CF1CA0786B00236317 /* ViewController.swift in Sources */,
-				BD1679DF1CA0809E00236317 /* Secrets.swift in Sources */,
+				7BAB09B11CA58CF4000D9186 /* MeSecrets.swift in Sources */,
 				BD1679E31CA08C0A00236317 /* SoundcloudAPI.swift in Sources */,
 				BD1679CD1CA0786B00236317 /* AppDelegate.swift in Sources */,
 			);
